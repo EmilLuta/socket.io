@@ -1,9 +1,12 @@
 {
-  "name": "we-be-socketing",
-  "version": "0.0.1",
-  "description": "I'm doing stuff while being bored. Not sure what, though.",
-  "dependencies": {
-    "express": "^4.14.1",
-    "socket.io": "^1.7.2"
-  }
+    "name": "we-be-socketing",
+    "version": "0.0.1",
+    "description": "I'm doing stuff while being bored. Not sure what, though.",
+    "dependencies": {
+        "express": "^4.14.1",
+        "socket.io": "^1.7.2"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
 }
