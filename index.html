@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Just some fun </title>
+    </head>
+    <body>
+        <div class="stuff"></div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io();
+            socket.on('userCount', function(data){
+                document.getElementsByClassName('stuff')[0].innerHTML = data;
+            });
+        </script>
+    </body>
+<html>
